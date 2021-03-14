@@ -49,7 +49,6 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
 }
 
 /* Adding styles to the aside and filter form */
@@ -98,7 +97,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../image/nasa.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -223,3 +222,15 @@ select {
     opacity: 1;
   }
 }
+
+.my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+display: block;
+}
+
+
